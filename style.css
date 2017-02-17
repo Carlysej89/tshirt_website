@@ -6,13 +6,18 @@ main{
   border: 4em;
   border-color: #87ceeb;
 }
+body{
+  align: center;
+}
 main section{
   margin: 20%;
 }
 section{
   height:35%;
   width: 40%;
+  margin: 25%;
   border:solid 5px #87ceeb;
+  float:left;
 }
 img{
   height:35%;
@@ -31,4 +36,18 @@ nav{
 }
 ul > li{
   display: inline-block;
+}
+aside{
+  height:35%;
+  width: 40%;
+  margin: 25%;
+  border:solid 5px #87ceeb;
+  float:left;
+}
+article{
+  height:35%;
+  width: 40%;
+  margin: 25%;
+  border:solid 5px #87ceeb;
+  float:left;
 }
