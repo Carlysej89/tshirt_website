@@ -2,20 +2,19 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 main{
-  margin:2em;
   border: 4em;
   border-color: #87ceeb;
 }
 body{
   align: center;
 }
-main section{
+/*main section{
   margin: 20%;
-}
+}*/
 section{
   height:35%;
-  width: 40%;
-  margin: 25%;
+  width: 30%;
+  margin:50px;
   border:solid 5px #87ceeb;
   float:left;
 }
@@ -37,17 +36,17 @@ nav{
 ul > li{
   display: inline-block;
 }
-aside{
+.pink{
   height:35%;
-  width: 40%;
-  margin: 25%;
+  width: 30%;
+  margin: 50px;
   border:solid 5px #87ceeb;
   float:left;
 }
-article{
+.yellow{
   height:35%;
-  width: 40%;
-  margin: 25%;
+  width: 30%;
+  margin: 50px;
   border:solid 5px #87ceeb;
   float:left;
 }
