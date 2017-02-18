@@ -2,27 +2,24 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 main{
+  margin-left:10%;
   border: 4em;
   border-color: #87ceeb;
 }
 body{
-  align: center;
+  margin:inherit;
 }
-/*main section{
-  margin: 20%;
-}*/
 section{
-  height:35%;
-  width: 30%;
-  margin:50px;
+  height: 35%;
+  width: 25%;
+  margin: 25px;
   border:solid 5px #87ceeb;
   float:left;
 }
 img{
   height:35%;
-  width: 35%;
-  margin: 10.5%;
-  margin-right: 15%;
+  width: 70%;
+  margin: 25px;
   border-color: #87ceeb;
   padding:em;
 }
@@ -32,21 +29,53 @@ nav{
   border-bottom: none;
   border-left: none;
   border-right:none;
+  margin-top: auto;
 }
 ul > li{
   display: inline-block;
 }
+li{
+  border:2em;
+}
 .pink{
   height:35%;
-  width: 30%;
-  margin: 50px;
+  width: 25%;
+  margin: 20px;
   border:solid 5px #87ceeb;
   float:left;
 }
 .yellow{
   height:35%;
-  width: 30%;
-  margin: 50px;
+  width: 25%;
+  margin: 20px;
   border:solid 5px #87ceeb;
   float:left;
 }
+.fa-refresh{
+  border: solid;
+  border-color: #87ceeb;
+  font-size: 1em;
+  height: 2em;
+  width: 3em;
+}
+.fa-heart-o{
+  border:solid;
+  border-color: #87ceeb;
+  height:2em;
+  width: 3em;
+}
+.letter{
+  border:solid;
+  border-color: #87ceeb;
+}
+.fa-stop{
+  border:solid;
+  border-color: #87ceeb;
+}
+.fa-shopping-cart{
+  border:solid;
+  border-color: #87ceeb;
+}
+/*p{
+  float:left;
+}*/
