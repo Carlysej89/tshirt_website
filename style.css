@@ -32,6 +32,10 @@ nav{
   margin-top: auto;
   padding: none;
 }
+ul{
+  margin: auto;
+  padding:inherit;
+}
 ul > li{
   display: inline-block;
   padding: none;
@@ -57,31 +61,32 @@ li{
   border: solid;
   border-color: #87ceeb;
   font-size: 1em;
-  height: 2em;
-  width: 3em;
-  padding:
+  height: 1em;
+  padding:.5em;
 }
 .fa-heart-o{
   border:solid;
   border-color: #87ceeb;
-  height:2em;
-  width: 3em;
+  height:1em;
+  padding:.5em;
 }
 .letter{
   border:solid;
   border-color: #87ceeb;
+  height: 1em;
+  padding: .5em;
 
 }
 .fa-stop{
   border:solid;
   border-color: #87ceeb;
-  padding: 1em;
+  padding: .5em;
   height:1em;
 }
 .fa-shopping-cart{
   border:solid;
   border-color: #87ceeb;
-  padding: 1em;
+  padding: .5em;
   height: 1em;
 }
 /*p{
