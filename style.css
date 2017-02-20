@@ -12,14 +12,14 @@ body{
 section{
   height: 35%;
   width: 25%;
-  margin: 25px;
+  margin: 35px;
   border:solid 5px #87ceeb;
   float:left;
 }
 img{
   height:35%;
   width: 70%;
-  margin: 25px;
+  margin: 35px;
   border-color: #87ceeb;
   padding:em;
 }
@@ -30,9 +30,11 @@ nav{
   border-left: none;
   border-right:none;
   margin-top: auto;
+  padding: none;
 }
 ul > li{
   display: inline-block;
+  padding: none;
 }
 li{
   border:2em;
@@ -57,6 +59,7 @@ li{
   font-size: 1em;
   height: 2em;
   width: 3em;
+  padding:
 }
 .fa-heart-o{
   border:solid;
@@ -67,14 +70,19 @@ li{
 .letter{
   border:solid;
   border-color: #87ceeb;
+
 }
 .fa-stop{
   border:solid;
   border-color: #87ceeb;
+  padding: 1em;
+  height:1em;
 }
 .fa-shopping-cart{
   border:solid;
   border-color: #87ceeb;
+  padding: 1em;
+  height: 1em;
 }
 /*p{
   float:left;
