@@ -41,9 +41,9 @@ ul > li{
   padding: none;
 }
 li{
-  border:2em;
+  border:1em;
 }
-.pink{
+.pink .yellow {
   height:35%;
   width: 25%;
   margin: 20px;
