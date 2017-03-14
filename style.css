@@ -1,27 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,700i');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
+* {
+  box-sizing: border-box;
+}
+
 main{
   margin-left:10%;
-  border: 4em;
+  border: 1em;
   border-color: #87ceeb;
 }
 body{
   margin:inherit;
 }
-section{
-  height: 35%;
+section, .pink, .yellow{
   width: 25%;
   margin: 35px;
-  border:solid 5px #87ceeb;
+  border: .5px solid #87ceeb;
   float:left;
 }
 img{
-  height:35%;
   width: 70%;
-  margin: 35px;
+  margin: 0 auto;
   border-color: #87ceeb;
-  padding:em;
+  padding: 1em;
+  display: block;
 }
 nav{
   border: solid;
@@ -33,62 +36,30 @@ nav{
   padding: none;
 }
 ul{
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  justify-content: space-between;
+
   margin: auto;
   padding:inherit;
 }
+
 ul > li{
-  display: inline-block;
-  padding: none;
+  padding: 0;
 }
-li{
-  border:1em;
-}
-.pink .yellow {
-  height:35%;
-  width: 25%;
-  margin: 20px;
-  border:solid 5px #87ceeb;
-  float:left;
-}
-.yellow{
-  height:35%;
-  width: 25%;
-  margin: 20px;
-  border:solid 5px #87ceeb;
-  float:left;
-}
-.fa-refresh{
-  border: solid;
-  border-color: #87ceeb;
-  font-size: 1em;
-  height: 1em;
-  padding:.5em;
-}
-.fa-heart-o{
-  border:solid;
-  border-color: #87ceeb;
-  height:1em;
-  padding:.5em;
-}
-.letter{
-  border:solid;
-  border-color: #87ceeb;
-  height: 1em;
-  padding: .5em;
+
+ul > li > a{
 
 }
-.fa-stop{
-  border:solid;
-  border-color: #87ceeb;
-  padding: .5em;
-  height:1em;
+
+.letter{
+  display: inline-block;
 }
-.fa-shopping-cart{
-  border:solid;
-  border-color: #87ceeb;
-  padding: .5em;
-  height: 1em;
+
+.fa-refresh, .fa-heart-o, .letter, .fa-stop, .fa-shopping-cart{
+  border: solid #87ceeb;
+  font-size: 1em;
+  padding: 0.5em;
+
 }
-/*p{
-  float:left;
-}*/
